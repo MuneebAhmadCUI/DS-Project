@@ -1,0 +1,8 @@
+# Kaizen Improvement Review - RailVerse
+
+| What was built | Problem/Limitation Found | Improvement Idea | Responsible | Expected Impact |
+| :--- | :--- | :--- | :--- | :--- |
+| **Linear Search** | Searching takes O(n) time. If we have 1 million passengers, it's slow. | Implement a **Hash Table** or **BST** for O(1) or O(log n) search. | Moosa | Instant search results regardless of list size. |
+| **Linked List** | Data is lost when the program closes (RAM only). | Add **File Handling** to save data to `.txt` or `.csv`. | Muneeb | Data persistence; records stay after restart. |
+| **Console UI** | The text is plain and hard to read. | Add **ANSI colors** or a simple **GUI**. | Faisal | Better user experience and readability. |
+| **Single Deletion**| Can only delete by ID one by one. | Add "Delete All" or "Delete by Name" feature. | Iman | Faster management for admin users. |

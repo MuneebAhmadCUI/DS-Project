@@ -1,0 +1,6 @@
+# Eisenhower Matrix - Week 3 Planning
+
+| | **Urgent** | **Not Urgent** |
+| :--- | :--- | :--- |
+| **Important** | **Quadrant 1 (Do First)**<br>- Fix bug where deleting the `head` node crashes.<br>- Submit Week 3 code to GitHub.<br>*(Assigned: Muneeb)* | **Quadrant 2 (Schedule)**<br>- Research AVL Trees for next week.<br>- Refactor code to use Classes instead of Structs.<br>*(Assigned: Moosa)* |
+| **Not Important** | **Quadrant 3 (Delegate)**<br>- Update README file with new screenshots.<br>- Send reminder for LinkedIn post.<br>*(Assigned: Iman)* | **Quadrant 4 (Delete/Later)**<br>- Changing console background color.<br>- Adding sound effects to the menu.<br>*(Assigned: Faisal)* |

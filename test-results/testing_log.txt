@@ -1,0 +1,31 @@
+TEST CASE 1: NORMAL INPUT (Adding Passengers)
+Input: 
+1 (Book Ticket) -> Name: Ali -> Train: Express
+1 (Book Ticket) -> Name: Sara -> Train: Metro
+4 (View All)
+
+Expected Output:
+[1001] Ali (Express)
+[1002] Sara (Metro)
+Status: PASSED
+
+TEST CASE 2: SEARCHING (Valid & Invalid)
+Input:
+3 (Search) -> ID: 1001
+3 (Search) -> ID: 9999
+
+Expected Output:
+>> FOUND: Ali on Express
+>> Passenger not found.
+Status: PASSED
+
+TEST CASE 3: EDGE CASE (Deleting from Empty List or Wrong ID)
+Input:
+2 (Cancel Ticket) -> ID: 5000 (Non-existent)
+(Restart Program with empty list)
+2 (Cancel Ticket)
+
+Expected Output:
+>> Ticket ID not found.
+>> No passengers to cancel.
+Status: PASSED
