@@ -1,0 +1,13 @@
+# Team Reflections
+
+**Muneeb (Tech Lead):**
+I focused mainly on the core Linked List logic, specifically the `cancelTicket` function. One new thing I learned was how to handle "dangling pointers" when deleting a node. If I had more time, I would add file handling to save data permanently.
+
+**Faisal (Tester):**
+My role was to break the code! I tested invalid inputs and ensured the menu loops correctly. I learned about `cin.ignore()` and how `getline` works for strings with spaces. I would love to add a login screen next time.
+
+**Moosa (Designer/Refactor):**
+I worked on "Code Cleanup." I broke down the large main function into smaller helper functions like `createNode`. I learned that readable code is just as important as working code. I would improve the UI with colors if we had another week.
+
+**Iman (Manager):**
+I managed the GitHub repository and documentation. I learned how `commits` and `pushes` work in a team environment. I ensured our `README` was professional. I would improve the project by adding a "Sort by Name" feature.

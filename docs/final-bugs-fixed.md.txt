@@ -1,0 +1,8 @@
+# 🐛 Final Bugs Fixed Report
+
+| Bug Description | Fix Applied | Status |
+| :--- | :--- | :--- |
+| **Crash on Space:** Entering names like "Ali Khan" skipped the next input. | Replaced `cin` with `getline(cin, name)`. | ✅ Fixed |
+| **Infinite Loop:** Entering a letter 'a' instead of a number caused an infinite loop. | Added `cin.clear()` and input validation check. | ✅ Fixed |
+| **Memory Leak:** Deleted nodes were not freed from memory. | Added `delete temp` inside the cancellation logic. | ✅ Fixed |
+| **Messy Code:** All logic was inside `main()`. | Moved logic to functions (`addPassenger`, `createNode`). | ✅ Fixed |
